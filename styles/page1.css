@@ -1,0 +1,155 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #eb4559;
+}
+.container {
+  height: 100vh;
+  overflow: hidden;
+}
+.parent {
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hedlink {
+  text-decoration: none;
+  cursor: pointer;
+}
+.headers {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 40px;
+  color: #3f3f44;
+}
+.firstword {
+  color:  #f7f7f7;
+}
+.message {
+  display: none;
+}
+@media (max-width: 1370px) {
+  .wrapper{
+    display: none;
+  }
+  .button{
+    display: none;
+  }
+  svg{
+    display: none;
+  }
+  .parent {
+    display: none;
+  }
+  .container-slider {
+    display: none;
+  }
+  .paragraph {
+    display: none;
+  }
+  #pageup {
+    display: none;
+  }
+  #pageclick {
+    display: none;
+  }
+  .message {
+    display: block;
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  .quotes {
+    font-family: "Titillium Web", sans-serif;
+  }
+}
+.paragraph {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-family: "Titillium Web", sans-serif;
+  color: #3f3f44;
+}
+.paragraph::first-letter {
+  color:  #f7f7f7;
+}
+.bbg {
+  color: #f7f7f7;
+}
+#pageup {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+:root {
+  /* --bg: #1a1e24; */
+  --color: #eee;
+  --font:  "Titillium Web", sans-serif;
+}
+
+.wrapper {
+  padding: 1.5rem 0;
+  filter: url('#goo');
+  position: absolute;
+  left: 50%;
+  top: 62%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  background: var(--color);
+  color: var(--bg);
+  font-weight: bold;
+  padding: 1.18em 1.32em 1.03em;
+  line-height: 1;
+  border-radius: 1em;
+  position: relative;
+  min-width: 8.23em;
+  text-decoration: none;
+  font-family: var(--font);
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.button:before,
+.button:after {
+  width: 4.4em;
+  height: 2.95em;
+  position: absolute;
+  content: "";
+  display: inline-block;
+  background: var(--color);
+  border-radius: 50%;
+  transition: transform 1s ease;
+  transform: scale(0);
+  z-index: -1;
+}
+
+.button:before {
+  top: -25%;
+  left: 20%;
+}
+
+.button:after {
+  bottom: -25%;
+  right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+  transform: none;
+}
+
+
+/* this app designed and developed by mohamed shibin */

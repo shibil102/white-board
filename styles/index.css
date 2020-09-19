@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    background: #f7f7f7;
+    overflow: hidden;
+}
+
+.navig{
+    height: 50px;
+    width: 100%;
+    background: #3f3f44;;
+}
+.header{
+    position: absolute;
+    left: 82%;
+    top: 26px;
+    transform: translate(-50%,-50%);
+}
+.davin{
+    color: #eb4559;
+}
+h3{
+    color: #f7f7f7;
+    font-family:  "Titillium Web", sans-serif;
+}
+h3:hover{
+    cursor: pointer;
+}
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 25px;
+    height: 25px;
+    outline: none;
+    position: absolute;
+    left: 195px;
+    top: 13px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+#thick{
+   position:absolute;
+   left: 225px;
+   top: 13px;
+   height: 24px;
+   width: 50px;
+   outline: none;
+   border: none;
+}
+#box{
+    width: 25px;
+    height: 25px;
+    background: #eb4559;
+    border: 1px solid #f7f7f7;
+
+}
+img{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+#erasers{
+    position: absolute;
+    left: 125px;
+    top: 13px;
+}
+#era{
+    position:absolute;
+    left: 208px;
+    top: 13px;
+    height: 24px;
+    width: 50px;
+    outline: none;
+    border: none;
+ }
+
+ #pen-box{
+    width: 25px;
+    height: 25px;
+    background: #eb4559;
+    border: 1px solid #f7f7f7;
+}
+#pen{
+    position: absolute;
+    left: 55px;
+    top: 13px;
+}
+ #buttons{
+    position: absolute;
+    left: 320px;
+    top: 15px;
+ }
+ #button{
+     color: #3f3f44;
+     background: #eb4559;
+     border-radius: none;
+     border: 1px solid #f7f7f7;
+ }
+
+ /* this app designed and developed by mohamed shibin */
+

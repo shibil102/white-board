@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Da vinci's white board</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- navigation bar -->
+      <section>
+        <nav class="navig">
+          <div class="header">
+            <h3><span class="davin">DA VINCI'S </span>WHITE BOARD</h3>
+          </div>
+          <div class="colorss">
+            <input type="color" id="colors" title="pick-color" />
+          </div>
+          <div class="thickness">
+            <input type="number" id="thick" value="3" max="7" title="thickness" />
+          </div>
+          <div id="erasers">
+            <div id="box" title="eraser" onclick="eraserss()">
+              <img src="resources/eraser.png" />
+            </div>
+          </div>
+          <div id="pen">
+            <div id="pen-box" title="pen-tool" onclick="drawing()">
+              <img src="resources/pen.png" />
+            </div>
+          </div>
+          <!-- <div class="era-thickness">
+            <input type="number" id="era" value="8" title="thickness" />
+          </div> -->
+          <div id="buttons">
+            <input type="button" id="clear" title="clear-screen" value="Clear">
+          </div>
+        </nav>
+        <!-- canvas -->
+      </section>
+      <section>
+        <div class="tools">
+          <canvas id="align"></canvas>
+        </div>
+      </section>
+    </div>
+    <script src="assets/index.js"></script>
+    <script src="assets/eraser.js"></script>
+  </body>
+</html>
+
+<!-- this app is designed and developed by mohamed shibin -->
